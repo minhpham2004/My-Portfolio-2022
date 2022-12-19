@@ -764,13 +764,7 @@ footer .contact-details {
   transform: translate(-50%, -50%);
   width: 700px;
   height: 150px;
-  background: linear-gradient(
-    transparent,
-    #fee800,
-    #fee800,
-    #fee800,
-    transparent
-  );
+  background: var(--clr);
   animation: profileRotateAnimation 4s linear infinite;
 }
 
