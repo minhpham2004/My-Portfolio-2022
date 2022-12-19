@@ -253,11 +253,12 @@ body {
 
 @media (max-width: 1216px) {
   .about {
-    padding: 35px 100px;  
+    padding: 35px 100px;
   }
 
   .about .about-content {
     flex-direction: column;
+    gap: 40px;
   }
 
   .about .about-content .about-text {
@@ -271,17 +272,17 @@ body {
 
 .about .about-content .about-text h1 {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 3em;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .about .about-content .about-text h5 {
-  color: #fff;
-  font-size: 25px;
+  color: yellow;
+  font-size: 20px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .about .about-content .about-text span {
@@ -289,7 +290,7 @@ body {
 }
 
 .about .about-content .about-text .fresher {
-  color: #0078FF;
+  color: #15ec11;
 }
 
 .about .about-content .about-text p {
@@ -297,7 +298,7 @@ body {
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* Skill */
@@ -479,7 +480,6 @@ body {
 @media (max-width: 885px) {
   .skills-bar {
     width: 90%;
-    transform: translateY(-70px);
   }
 
   .other-skills-container {
@@ -729,11 +729,12 @@ footer .contact-details {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
 }
 
 .project-container .projects-header h1 {
   color: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .project-container .all-projects {
